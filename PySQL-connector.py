@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 db_connection = mysql.connector.connect(
   host="localHost",
   user="root",
-  password="k@ram135",
+  password="........",
   database="MyCompany"
 )
 
@@ -100,5 +100,6 @@ plt.xticks(rotation=0)
 plt.grid(axis='y', ls='--', alpha=0.7)
 
 plt.show()
+
 
 db_connection.close()
