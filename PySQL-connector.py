@@ -91,7 +91,7 @@ print(project_count)
 # 5. Diagram
 # -------------------------------------------------------
 plt.figure(figsize=(10, 6))
-project_count.plot(kind='bar', colorbar='green', edgecolor='k')
+project_count.plot(kind='bar', color='green', edgecolor='k')
 
 plt.title('Number of Projects per Employee', fontsize=14)
 plt.xlabel('Employee Name')
@@ -103,3 +103,4 @@ plt.show()
 
 
 db_connection.close()
+
